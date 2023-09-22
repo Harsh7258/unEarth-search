@@ -1,0 +1,37 @@
+export default[
+    {
+        id:1,
+        name:'Restaurants',
+        icon:'/restaurant.png'
+    },
+    {
+        id:2,
+        name:'Gas Station',
+        icon:'/gas.png'
+    },
+    {
+        id:3,
+        name:'Grocery',
+        icon:'/ingredients.png'
+    },
+    {
+        id:4,
+        name:'Cafe',
+        icon:'/cafe.png'
+    },
+    {
+        id:5,
+        name:'Brewary',
+        icon:'/beer.png'
+    },
+    {
+        id:6,
+        name:'Bank',
+        icon:'/bank.png'
+    },
+    {
+        id:7,
+        name:'More',
+        icon:'/more.png'
+    }
+]

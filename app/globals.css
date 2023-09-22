@@ -7,6 +7,7 @@
   --strong-text: #616F39;
   --bg-color: #A7D129;
   --light-bg: #F8EEB4;
+  --light: #ffff;
 }
 .textM{
   color: var(--text);
@@ -22,4 +23,32 @@
 }
 .header-li:hover{
   color: var(--bg-color);
+}
+
+/* Hero Section */
+.hero-img{
+  @apply w-full absolute mt-[-50px];
+}
+.hero-logo{
+  @apply text-[48px] tracking-wide font-bold;
+}
+.hero-searchBar{
+  @apply mt-5 z-10 flex gap-2 items-center justify-center;
+}
+.hero-input{
+  @apply p-[7px] z-10 border-[1px] rounded-full px-5 w-[40%] shadow-sm;
+}
+.hero-btn{
+  background-color: var(--bg-color);
+  @apply rounded-full p-[5px] shadow-sm z-10 cursor-pointer border-[1.5px] hover:scale-110 transition-all;
+}
+.hero-category{
+  @apply mt-5 flex flex-col justify-center items-center;
+}
+.hero-wrap-icon{
+  @apply grid grid-cols-4 md:grid-cols-7 gap-6 w-[50%] justify-center mt-3 z-10 ; 
+}
+.hero-icons{
+  background-color: var(--light);
+  @apply border-[1.5px] w-[58px] p-3 rounded-full flex justify-center hover:scale-110 cursor-pointer transition-all;
 }
