@@ -36,11 +36,11 @@
   @apply mt-5 z-10 flex gap-2 items-center justify-center;
 }
 .hero-input{
-  @apply p-[7px] z-10 border-[1px] rounded-full px-5 w-[40%] shadow-sm;
+  @apply p-[7px] z-10 border-[1.5px] rounded-full px-5 w-[40%] shadow-sm hover:border-green-800;
 }
-.hero-btn{
+.hero-Searchbtn{
   background-color: var(--bg-color);
-  @apply rounded-full p-[5px] shadow-sm z-10 cursor-pointer border-[1.5px] hover:scale-110 transition-all;
+  @apply rounded-full p-[5px] shadow-sm z-10 cursor-pointer border-[1.5px] hover:scale-110 transition-all  hover:border-green-800;
 }
 .hero-category{
   @apply mt-5 flex flex-col justify-center items-center;
@@ -50,5 +50,5 @@
 }
 .hero-icons{
   background-color: var(--light);
-  @apply border-[1.5px] w-[58px] p-3 rounded-full flex justify-center hover:scale-110 cursor-pointer transition-all;
+  @apply border-[1px] w-[58px] p-3 rounded-full flex justify-center hover:scale-110 hover:border-green-800 cursor-pointer transition-all;
 }

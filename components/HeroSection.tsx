@@ -18,9 +18,9 @@ const HeroSection = () => {
                         <input 
                         type='text'
                         placeholder='Search Here..'
-                        className='hero-input '/>
+                        className='hero-input'/>
                         <button 
-                        className='hero-btn hover:border-green-800'>
+                        className='hero-Searchbtn'>
                             <Image src='/search-1.png' alt='search'
                             width={27}
                             height={27}/>
@@ -32,7 +32,9 @@ const HeroSection = () => {
                         </h4>
                         <div className='hero-wrap-icon'>
                             {category.map((item, index) => (
-                                <div className='hero-icons hover:border-green-800'>
+                                <div 
+                                key={index}
+                                className='hero-icons'>
                                     <Image
                                     src={item.icon}
                                     alt={item.name}
